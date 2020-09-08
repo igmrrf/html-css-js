@@ -1,0 +1,8 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(10, 10, 49);
+  box-shadow: inset 0 0 5px 1px #fff;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/pageable@latest/dist/pageable.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main id="example">
+      <section data-anchor="Page 1">
+        Section 1
+      </section>
+      <section data-anchor="Page 2">
+        Section 2
+      </section>
+      <section data-anchor="Page 3">
+        Section 3
+      </section>
+      <section data-anchor="Page 4">
+        Section 4
+      </section>
+      <section data-anchor="Page 5">
+        Section 5
+      </section>
+      ...
+    </main>
+    <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
+    <script>
+      new Pageable("#example");
+    </script>
+  </body>
+</html>

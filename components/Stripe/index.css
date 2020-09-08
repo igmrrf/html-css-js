@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background: #1c1d33;
+}
+
+.app-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#checkout-button {
+  padding: 10px 30px;
+  line-height: 1.2em;
+  background: rgb(29, 29, 182);
+  border: none;
+  border-radius: 20px;
+}
