@@ -18,15 +18,45 @@
           <li class="nav-item">Login</li>
           <li class="nav-item">Sign Up</li>
         </ul>
-        <div class="nav-menu">
+        <div class="nav-menu" id="nav-menu-icon" onclick="showSidebar()">
           <div class="menu-item"></div>
           <div class="menu-item"></div>
           <div class="menu-item"></div>
         </div>
       </nav>
+      <nav class="sidebar" id="nav-sidebar">
+        <div class="sidebar-close">
+          <button onclick="hideSidebar()">Close</button>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-item">Home</li>
+          <li class="sidebar-item">Book</li>
+          <li class="sidebar-item">Why Us</li>
+          <li class="sidebar-item">Contact</li>
+          <li class="sidebar-item">Login</li>
+          <li class="sidebar-item">Sign Up</li>
+        </ul>
+      </nav>
     </header>
-    <main class="main" id="home-main">This is the main content</main>
+    <main class="main" id="home-main">
+      <button id="alt-click">Click Button</button>
+      <button id="video">Video</button>
+      <button id="control-button">Control Button</button>
+      <button id="coords">Co-ordinates</button>
+    </main>
     <footer class="footer" id="home-footer">This is the footer</footer>
   </body>
   <script src="src/index.js"></script>
+  <script>
+    function showSidebar() {
+      const sidebar = document.getElementById("nav-sidebar");
+      sidebar.classList.add("show");
+    }
+
+    function hideSidebar() {
+      const sidebar = document.getElementById("nav-sidebar");
+      sidebar.classList.remove("show");
+    }
+  </script>
 </html>
