@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  /* display: none; */
+  width: 0;
+  background: transparent;
+}
+
+#progress-bar-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: rgba(red, green, blue, 0.05);
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  background: linear-gradient(to top, violet, red);
+  height: 0;
+  opacity: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background: #171414;
+  font-family: "Courier New", "Courier New", Courier, monospace;
+  color: #fff;
+  padding: 15% 15% 15%;
+}
+
+h1 {
+  font-size: 200px;
+  position: absolute;
+  top: -5%;
+  left: 15%;
+  opacity: 25%;
+  font-family: "Fira Code", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+p:first-of-type {
+  margin-top: 100px;
+}

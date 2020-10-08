@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: #2f303a;
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5vh;
+}
+
+.brand-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brand-logo .brand-img {
+  width: 5rem;
+}
+
+.brand-logo .brand-text {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+}
+
+.nav-list .nav-item {
+  margin: 0 20px 0 20px;
+}
+
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+}
+
+.main-content .main-img {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main-content .main-img .landing-page-girl {
+  position: absolute;
+  bottom: 0;
+  height: 75%;
+}
+
+.main-content .call-to-action {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-content .call-to-action .call-to-action-text {
+  height: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-content .call-to-action .call-to-action-text h1 {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.main-content .call-to-action .call-to-action-text p {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.main-content .call-to-action .call-to-action-text .btn {
+  background-color: #0855fccb;
+  color: #fff;
+  font-weight: 300;
+  font-size: 2rem;
+  width: 200px;
+  height: 75px;
+  border: none;
+  border-radius: 10px;
+}
+
+.homepage-circle-1 {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: 75%;
+  top: 49%;
+  background-color: rgba(255, 0, 98, 0.1);
+  z-index: -1;
+  border-radius: 100% 0 0 0;
+}
+
+.homepage-circle-2 {
+  height: 300px;
+  width: 300px;
+  left: 50%;
+  top: 5%;
+  position: absolute;
+  background-color: rgba(46, 43, 230, 0.1);
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.homepage-circle-3 {
+  height: 300px;
+  width: 300px;
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(37, 241, 105, 0.1);
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.homepage-circle-4 {
+  height: 400px;
+  width: 400px;
+  bottom: 0;
+  left: 30;
+  position: absolute;
+  background-color: rgba(241, 37, 37, 0.1);
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.homepage-circle-5 {
+  height: 300px;
+  width: 300px;
+  top: -15%;
+  left: 10%;
+  position: absolute;
+  background-color: rgba(0, 225, 255, 0.1);
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.homepage-circle-6 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(253, 253, 253, 0.1);
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.homepage-circle-7 {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: 35%;
+  top: 40%;
+  background-color: rgba(255, 0, 98, 0.1);
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.homepage-circle-8 {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: 75%;
+  top: 0%;
+  background-color: rgba(0, 60, 255, 0.1);
+  z-index: -1;
+  border-radius: 100% 0 0 0;
+}
+
+.homepage-circle-9 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-color: rgba(0, 60, 255, 0.05);
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.discover-features {
+  margin-top: 7vh;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.discover-features .discover-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60%;
+  height: 60%;
+  color: white;
+}
+
+.discover-features .discover-text h1 {
+  font-weight: 300;
+  font-size: 6rem;
+}
+
+.discover-features .discover-text .discover-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.discover-features .discover-text .discover-categories .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  font-size: 30px;
+  width: 200px;
+  height: 150px;
+  margin: 30px;
+  background-color: #23232b;
+  margin: auto;
+}
+
+.discover-features .discover-text p {
+  font-size: 2rem;
+}
+
+.discover-features .discover-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register {
+  margin-top: 7vh;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register .join-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  height: 60%;
+  color: white;
+}
+
+.register .join-text h1 {
+  font-weight: 600;
+  font-size: 8rem;
+  color: #c44694;
+}
+
+.register .sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+.register .sign-up .card {
+  background-color: #23232b;
+  border-radius: 10%;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.register .sign-up .card .input {
+  width: 100%;
+  height: 20%;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.register .sign-up .card .input input {
+  width: 80%;
+  background-color: transparent;
+  border: 1px solid #2a3357;
+  height: 2.5rem;
+  border-radius: round;
+}
+
+.register .sign-up .card .input .btn {
+  font-size: 30px;
+  color: white;
+  border: none;
+  border-radius: unset;
+  width: 80%;
+  height: 3rem;
+  background-color: #117df8;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10vh;
+  width: 100vw;
+  background-color: #23232b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.footer .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 100%;
+  font-weight: 500;
+}
+
+.footer .social {
+  margin-left: 20px;
+}
+
+.footer .social img {
+  width: 35px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
